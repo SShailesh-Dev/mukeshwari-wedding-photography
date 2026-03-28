@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Noto Serif", serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Inter", sans-serif;
+
+  --color-primary: #735b24;
+  --color-primary-container: #c8a96a;
+  --color-on-primary: #ffffff;
+  --color-background: #faf9f6;
+  --color-on-surface: #1a1c1a;
+  --color-on-surface-variant: #4d463a;
+  --color-surface-container-low: #f4f3f1;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-highest: #e3e2e0;
+  --color-outline-variant: #d0c5b5;
+  --color-surface: #faf9f6;
+  --color-surface-dim: #dbdad7;
+  --color-surface-bright: #faf9f6;
+  --color-surface-container: #efeeeb;
+  --color-surface-container-high: #e9e8e5;
+  --color-secondary: #5f5e5e;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #656464;
+  --color-tertiary: #5e5f5d;
+  --color-on-tertiary: #ffffff;
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+@layer base {
+  html, body {
+    @apply overflow-x-hidden;
+  }
+  body {
+    @apply bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary;
+  }
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #735b24 0%, #c8a96a 100%);
+}
