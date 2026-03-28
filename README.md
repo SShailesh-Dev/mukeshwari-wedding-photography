@@ -2,7 +2,7 @@
 
 An editorial wedding photography portfolio designed for the soulful and intentional. This application showcases a luxury aesthetic with cinematic storytelling, capturing the poetry of union in Prayagraj and worldwide.
 
-![Mukheshwari Wedding Photography](https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=1200)
+![Mukheshwari Wedding Photography](https://raw.githubusercontent.com/SShailesh-Dev/mukeshwari-wedding-photography/refs/heads/master/Mukeshwari%20Wedding%20Photography.png)
 
 ## ✨ Features
 
@@ -45,7 +45,7 @@ An editorial wedding photography portfolio designed for the soulful and intentio
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/SShailesh-Dev/mukeshwari-wedding-photography.git
    ```
 
 2. Install dependencies:
